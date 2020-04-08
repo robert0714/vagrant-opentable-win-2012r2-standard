@@ -8,7 +8,8 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
+  #config.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
+  config.vm.box = "cdaf/WindowsServer"
 
   config.vm.box_check_update = true
 
